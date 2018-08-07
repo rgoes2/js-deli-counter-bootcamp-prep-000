@@ -6,6 +6,4 @@ function takeANumber (lineNumber,customer){
   lineNumber.push(customer);
   return `Welcome, ${customer}. You are number ${lineNumber.length} in line.`;
   }
-
-  
 }
