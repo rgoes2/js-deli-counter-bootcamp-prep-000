@@ -20,15 +20,15 @@ function nowServing (lineNumber){
 }
 function currentLine (lineNumber){
   if (lineNumber.length === 0){
-    return `The line is currently empty.`
+    return `The line is currently empty.`;
   }
   else {
-  var countdown = lineNumber.length
+  var countdown = lineNumber.length;
   var newArray = [];
     while (countdown > 0){
-    newArray[countdown] = `${countdown}. ${lineNumber[countdown]}`
+    newArray[countdown] = `${countdown}. ${lineNumber[countdown]}`;
     --countdown;
     }
-    
+    return `The line is currenly: ${newArray}`
   }
 }
