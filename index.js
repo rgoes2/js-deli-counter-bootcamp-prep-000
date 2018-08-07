@@ -1,5 +1,5 @@
 
-var deli = true;
+var deli = false;
 var i = 0 ;
 function takeANumber (lineNumber,customer){
 while (deli){
