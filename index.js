@@ -1,7 +1,6 @@
 
 var deli = true;
 function takeANumber (lineNumber,customer){
-var i = 0;
 while (deli){
 
   lineNumber.push = customer;
