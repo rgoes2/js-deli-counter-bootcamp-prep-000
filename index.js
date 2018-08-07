@@ -2,7 +2,7 @@
 var deli = true;
 function takeANumber (lineNumber,customer){
 var i = 0;
-  if (lineNumber.length != 0 ){
+  if (lineNumber.length != 1 ){
   lineNumber.push = customer;
   }
 while (deli){
