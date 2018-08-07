@@ -6,7 +6,7 @@ function takeANumber (lineNumber,customer){
   i++;
   } else {
   lineNumber.push = customer;
-  
+  return `Welcome, ${customer}. You are number ${lineNumber.indexOf(customer)+1} in line.`;
   }
 
   
