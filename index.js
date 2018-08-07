@@ -1,6 +1,6 @@
 function takeANumber (lineNumber,customer){
   if (lineNumber.length === 0){
-  lineNumber.unshift = customer;
+  lineNumber[0] = customer;
   return `Welcome, ${customer}. You are number ${lineNumber.indexOf(customer)+1} in line.`;
   } else {
   lineNumber.push = customer;
