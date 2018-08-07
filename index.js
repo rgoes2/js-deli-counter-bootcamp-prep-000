@@ -17,3 +17,5 @@ function nowServing (lineNumber){
   lineNumber.unshift(currentCustomer)
   }
 }
+var array = [];
+console.log(array(0))
