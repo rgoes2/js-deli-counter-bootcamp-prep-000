@@ -7,3 +7,8 @@ function takeANumber (lineNumber,customer){
   return `Welcome, ${customer}. You are number ${lineNumber.length} in line.`;
   }
 }
+function nowServing (lineNumber){
+  var currentCustomer = lineNumber[0]
+  return `Now serving${}`;
+  lineNumber.unshift(currentCustomer)
+}
