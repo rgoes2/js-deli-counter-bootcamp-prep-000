@@ -30,6 +30,6 @@ function currentLine (lineNumber){
     --countdown;
     }
   
-    return `The line is currenly: ${newArray}`
+    return `The line is currently: ${newArray}`
   }
 }
