@@ -29,6 +29,7 @@ function currentLine (lineNumber){
     newArray[countdown- 1] = `${countdown- 1}. ${lineNumber[countdown- 1]}`;
     --countdown;
     }
+  
     return `The line is currenly: ${newArray}`
   }
 }
