@@ -18,4 +18,4 @@ function nowServing (lineNumber){
   }
 }
 var array = [];
-console.log(array(0))
+console.log(array)
