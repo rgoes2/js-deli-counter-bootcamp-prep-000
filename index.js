@@ -4,7 +4,7 @@ function takeANumber (lineNumber,customer){
   return `Welcome, ${customer}. You are number ${lineNumber.indexOf(customer)+1} in line.`;
   } else {
   lineNumber.push(customer);
-  return `Welcome, ${customer}. You are number ${lineNumber.length + 1} in line.`;
+  return `Welcome, ${customer}. You are number ${lineNumber.length} in line.`;
   }
 
   
