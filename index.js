@@ -13,7 +13,7 @@ function nowServing (lineNumber){
   }
   else {
   var currentCustomer = lineNumber[0]
-  lineNumber.shift(currentCustomer)
+  lineNumber.shift(0)
   return `Currently serving ${currentCustomer}.`
 
   }
