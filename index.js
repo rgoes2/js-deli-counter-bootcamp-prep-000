@@ -12,3 +12,5 @@ while (deli){
   i++
   }
 }
+var array = [];
+console.log(array.length)
