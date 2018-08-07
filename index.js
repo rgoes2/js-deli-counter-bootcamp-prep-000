@@ -23,6 +23,14 @@ function currentLine (lineNumber){
     return `The line is currently empty.`
   }
   else {
+  var countdown = lineNumber.length
+  var newArray = [];
+    while (countdown > 0){
+    newArray[countdown] = `${countdown}. ${lineNumber[countdown]}`
+    
+    }
     
   }
 }
+var array =[1,2,3,4];
+console.log(array.length)
