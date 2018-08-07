@@ -26,7 +26,7 @@ function currentLine (lineNumber){
   var countdown = lineNumber.length;
   var newArray = [];
     while (countdown > 0){
-    newArray[countdown- 1] = `${countdown}. ${lineNumber[countdown- 1]}`;
+    newArray[countdown- 1] = ` ${countdown}. ${lineNumber[countdown- 1]}`;
     --countdown;
     }
   
