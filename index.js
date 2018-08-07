@@ -18,5 +18,11 @@ function nowServing (lineNumber){
 
   }
 }
-var array = [];
-console.log(array.length)
+function currentLine (lineNumber){
+  if (lineNumber.length === 0){
+    return `The line is currently empty.`
+  }
+  else {
+    
+  }
+}
