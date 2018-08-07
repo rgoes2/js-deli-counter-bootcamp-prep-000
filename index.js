@@ -8,7 +8,7 @@ function takeANumber (lineNumber,customer){
   }
 }
 function nowServing (lineNumber){
-  if (lineNumber[0] === 0) {
+  if (lineNumber === 0) {
     return `There is nobody waiting to be served!`
   }
   else {
