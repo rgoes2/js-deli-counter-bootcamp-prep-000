@@ -1,5 +1,3 @@
-
-var i = 0 ;
 function takeANumber (lineNumber,customer){
 while (){
   lineNumber[i]= i+1;
