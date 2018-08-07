@@ -1,8 +1,7 @@
 
-var deli = false;
 var i = 0 ;
 function takeANumber (lineNumber,customer){
-while (deli){
+while (){
   lineNumber[i]= i+1;
   console.log(`Welcome, ${customer}. You are number ${lineNumber.indexOf(customer)+1} in line.`);
   i++;;
