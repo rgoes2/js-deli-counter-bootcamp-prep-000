@@ -9,7 +9,7 @@ function takeANumber (lineNumber,customer){
 }
 function nowServing (lineNumber){
   if (lineNumber[0] === 0) {
-    return `The line is empty!`
+    return `There is nobody waiting to be served!`
   }
   else {
   var currentCustomer = lineNumber[0]
